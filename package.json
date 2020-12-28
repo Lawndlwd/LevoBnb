@@ -1,0 +1,14 @@
+{
+	"name": "mastring-nuxt",
+	"dependencies": {
+		"gsap": "^3.5.1",
+		"nuxt": "^2.14.12",
+		"sass": "^1.30.0",
+		"sass-loader": "^10.1.0"
+	},
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start"
+	}
+}
