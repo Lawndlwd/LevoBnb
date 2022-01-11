@@ -50,7 +50,7 @@ export default {
   publicRuntimeConfig: {
     rootUrl:
       process.env.NODE_ENV === 'production'
-        ? 'https://levo-bnb.vercel.app/'
+        ? 'https://levo-bnb.vercel.app'
         : 'http://localhost:3000',
     auth: {
       cookieName: 'idToken',
