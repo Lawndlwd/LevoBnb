@@ -1,5 +1,5 @@
 {
-  "name": "mastering-nuxt",
+  "name": "levobnb",
   "dependencies": {
     "@babel/preset-env": "7.12.17",
     "@nuxtjs/cloudinary": "1.0.3-beta-3",
