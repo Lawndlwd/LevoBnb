@@ -35,11 +35,6 @@ export default {
   cloudinary: {
     cloudName: 'dy9jmzxjx',
   },
-  image: {
-    cloudinary: {
-      baseURL: 'https://res.cloudinary.com/dy9jmzxjx/image/upload/',
-    },
-  },
   css: ['~/assets/sass/app.scss'],
   build: {
     extractCSS: true,
