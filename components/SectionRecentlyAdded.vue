@@ -13,7 +13,7 @@
             class="app-house"
           >
             <div class="app-house-header">
-              <nuxt-img :src="home.images[0]" width="360" height="175" />
+              <img :src="home.images[0]" width="360" height="175" />
             </div>
             <div class="app-house-body">
               <div class="app-rating">

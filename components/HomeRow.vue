@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-img
+    <img
       class="app-house-header"
       width="360"
       height="200"
