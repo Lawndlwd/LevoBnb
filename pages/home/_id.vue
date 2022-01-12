@@ -16,7 +16,7 @@ export default {
         '@context': 'http://schema.org',
         '@type': 'BedAndBreakfast',
         name: this.home.title,
-        image: this.$img(this.home.images[0], { width: 1200 }),
+        image: this.home.images[0],
         address: {
           '@type': 'PostalAddress',
           addressLocality: this.home.location.city,
@@ -46,7 +46,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: this.$img(this.home.images[0], { width: 1200 }),
+          content: this.home.images[0],
         },
         {
           hid: 'og-url',

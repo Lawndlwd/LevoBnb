@@ -31,7 +31,7 @@ export default {
     '@nuxtjs/cloudinary',
     '~/modules/stripe',
   ],
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  buildModules: ['@nuxtjs/tailwindcss'],
   cloudinary: {
     cloudName: 'dy9jmzxjx',
   },

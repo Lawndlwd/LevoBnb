@@ -5,7 +5,7 @@
         <div
           v-for="publicId in images"
           :key="publicId"
-          :style="`background-image: url(${getImageUrl(publicId)})`"
+          :style="`background-image: url(${publicId})`"
         ></div>
       </div>
     </div>
@@ -19,12 +19,6 @@ export default {
       required: true,
     },
   },
-  methods: {
-    getImageUrl(publicId) {
-      return this.$img(publicId, {
-        width: 600,
-      })
-    },
-  },
+  methods: {},
 }
 </script>
